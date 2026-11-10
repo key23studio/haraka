@@ -25,18 +25,18 @@
 
 | اطلب من Claude | ماذا يفعل |
 |---|---|
-| «احذف الجمل المكررة والبدايات الخاطئة» | يقص من الفيديو، والكابشن يتبع (cut_video) |
-| «صحّح كلمات الكابشن الخطأ» | يصحّح الكلمات ويبقي توقيتها (fix_captions) |
-| «ترجم الكابشن إلى الإنجليزية» | ترجمة على جهازك، بلا رفع (translate_captions) |
-| «قرّب الصورة على الكلمات المهمة» | تقريب ناعم على الوجه عند كل كلمة (word_zoom) |
-| «أعطِ الفيديو كله شكلًا إخباريًا» | ألوان وخطوط وحركات وكابشن بشكل واحد (apply_look) |
-| «ضع لقطة توضيحية فوق الكلام» | مقطع من مقاطعك فوق الكلام والصوت مستمر (add_broll) |
-| «ضع مؤثرات صوتية» | صوت قصير عند كل عنصر وكل قطع (place_sound_effects) |
-| «اجعل الموسيقى بطول الفيديو» | يمدّ الموسيقى أو يقصّرها بلا قفزة (fit_music) |
-| «اصنع ريلز من هذا النص» | مشروع جديد: مشهد متحرك لكل سطر، مع موسيقى (create_reel) |
-| «اصنع فيديو إطلاق من رابط موقعي» | يقرأ الصفحة ويبني فيديو بألوانها وصورها (video_from_link) |
-| «راجع الفيديو وأصلح أسوأ ما فيه» | ينظر إلى 12 صورة من الفيديو ويصلح (review_video) |
-| «صدّر الفيديو» | ملف MP4 على جهازك (export_video) |
+| «احذف الجمل المكررة والبدايات الخاطئة» | يقص من الفيديو، والكابشن يتبع |
+| «صحّح كلمات الكابشن الخطأ» | يصحّح الكلمات ويبقي توقيتها |
+| «ترجم الكابشن إلى الإنجليزية» | ترجمة على جهازك، بلا رفع |
+| «قرّب الصورة على الكلمات المهمة» | تقريب ناعم على الوجه عند كل كلمة |
+| «أعطِ الفيديو كله شكلًا إخباريًا» | ألوان وخطوط وحركات وكابشن بشكل واحد |
+| «ضع لقطة توضيحية فوق الكلام» | مقطع من مقاطعك فوق الكلام والصوت مستمر |
+| «ضع مؤثرات صوتية» | صوت قصير عند كل عنصر وكل قطع |
+| «اجعل الموسيقى بطول الفيديو» | يمدّ الموسيقى أو يقصّرها بلا قفزة |
+| «اصنع ريلز من هذا النص» | مشروع جديد: مشهد متحرك لكل سطر، مع موسيقى |
+| «اصنع فيديو إطلاق من رابط موقعي» | يقرأ الصفحة ويبني فيديو بألوانها وصورها |
+| «راجع الفيديو وأصلح أسوأ ما فيه» | ينظر إلى 12 صورة من الفيديو ويصلح |
+| «صدّر الفيديو» | ملف MP4 على جهازك |
 
 ## البرنامج
 
@@ -133,18 +133,18 @@ Once KEY23 is connected to Claude (steps below), ask in plain words:
 
 | Ask Claude | What it does |
 |---|---|
-| “Cut the repeated sentences and false starts” | Cuts the video; captions follow (cut_video) |
-| “Fix the wrong caption words” | Fixes the words, keeps their timing (fix_captions) |
-| “Translate the captions to English” | Translated on your computer (translate_captions) |
-| “Zoom in on the important words” | A soft push in as each word is said (word_zoom) |
-| “Give the whole video a news look” | One look for colours, fonts, motion, captions (apply_look) |
-| “Put B-roll over the talking” | One of your clips over the speech (add_broll) |
-| “Add sound effects” | A short sound at each element and cut (place_sound_effects) |
-| “Make the music as long as the video” | Stretches or trims it without a jump (fit_music) |
-| “Make a reel from this script” | A new project, one animated scene per line (create_reel) |
-| “Make a launch video from my website link” | Reads the page and builds a video from it (video_from_link) |
-| “Review the video and fix the worst” | Looks at 12 pictures across it, then fixes (review_video) |
-| “Export the video” | An MP4 on your computer (export_video) |
+| “Cut the repeated sentences and false starts” | Cuts the video; captions follow |
+| “Fix the wrong caption words” | Fixes the words, keeps their timing |
+| “Translate the captions to English” | Translated on your computer |
+| “Zoom in on the important words” | A soft push in as each word is said |
+| “Give the whole video a news look” | One look for colours, fonts, motion, captions |
+| “Put B-roll over the talking” | One of your clips over the speech |
+| “Add sound effects” | A short sound at each element and cut |
+| “Make the music as long as the video” | Stretches or trims it without a jump |
+| “Make a reel from this script” | A new project, one animated scene per line |
+| “Make a launch video from my website link” | Reads the page and builds a video from it |
+| “Review the video and fix the worst” | Looks at 12 pictures across it, then fixes |
+| “Export the video” | An MP4 on your computer |
 
 ## The app
 

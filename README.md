@@ -1,4 +1,4 @@
-<p align="center"><img src="https://thekey23.com/img/key23-logo-light.png" alt="KEY23" width="220"></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/key23-logo-light.png"><img src="assets/key23-logo.png" alt="KEY23" width="220"></picture></p>
 
 <div dir="rtl">
 
@@ -52,7 +52,16 @@
 
 <div dir="rtl">
 
-3. إن سألك عن مجلد KEY23، فاختر مجلد الاستوديو. ولتغييره لاحقًا: `/plugin configure key23@key23`.
+3. إن سألك عن مجلد KEY23، فاختر مجلد الاستوديو. ولتغييره لاحقًا، اكتب الأمر:
+
+</div>
+
+```
+/plugin configure key23@key23
+```
+
+<div dir="rtl">
+
 4. ابدأ جلسة جديدة، واكتب: **«اعرض مشاريعي في KEY23»**.
 
 ### إن لم يعمل

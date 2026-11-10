@@ -1,0 +1,36 @@
+name: مشكلة · Problem
+description: شيء لا يعمل كما يجب · Something doesn't work as it should
+labels: [problem]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        لا ترفع فيديوهاتك أو ملفات مشاريعك هنا: كل ما يُكتب هنا يراه الجميع.
+        Don't attach your videos or project files here: everything here is public.
+  - type: textarea
+    id: what
+    attributes:
+      label: ماذا حدث؟ · What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: الخطوات · Steps
+      description: ماذا فعلت قبلها، خطوة خطوة · What you did before it, step by step
+  - type: dropdown
+    id: where
+    attributes:
+      label: أين؟ · Where?
+      options:
+        - نسخة الويب · Web version
+        - على الهاتف · On a phone
+        - الاستوديو على الكمبيوتر · Desktop studio
+        - إضافة Claude · Claude extension
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: النسخة · Version
+      description: من «حول البرنامج» · From «About»

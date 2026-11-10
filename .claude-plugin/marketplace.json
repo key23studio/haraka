@@ -1,0 +1,15 @@
+{
+  "name": "key23",
+  "description": "KEY23: Arabic motion studio tools for Claude",
+  "owner": {
+    "name": "KEY23",
+    "url": "https://thekey23.com"
+  },
+  "plugins": [
+    {
+      "name": "key23",
+      "source": "./plugins/key23",
+      "description": "Claude reads and edits your KEY23 projects on your computer: captions, templates, cuts. Needs the KEY23 studio installed."
+    }
+  ]
+}

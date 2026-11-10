@@ -1,0 +1,14 @@
+name: فكرة · Idea
+description: حركة أو أداة تتمنى أن تكون في KEY23 · A motion or tool you wish KEY23 had
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: الفكرة · The idea
+    validations:
+      required: true
+  - type: input
+    id: example
+    attributes:
+      label: مثال (رابط فيديو عام) · Example (a public video link)

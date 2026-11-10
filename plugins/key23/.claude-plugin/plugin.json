@@ -1,0 +1,37 @@
+{
+  "name": "key23",
+  "displayName": "KEY23",
+  "version": "2.0.0",
+  "description": "Arabic motion studio: Claude reads and edits your KEY23 projects (captions, templates, cuts). Your videos stay on your computer.",
+  "author": {
+    "name": "KEY23",
+    "url": "https://thekey23.com"
+  },
+  "homepage": "https://thekey23.com",
+  "repository": "https://github.com/key23studio/haraka",
+  "keywords": [
+    "video",
+    "motion",
+    "arabic",
+    "captions",
+    "reels"
+  ],
+  "userConfig": {
+    "key23_dir": {
+      "type": "directory",
+      "title": "KEY23 folder",
+      "description": "Where KEY23 is installed (the folder with start-studio). Leave empty if it is C:\\KEY23 or KEY23 in your home folder."
+    }
+  },
+  "mcpServers": {
+    "key23": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/server/index.js"
+      ],
+      "env": {
+        "KEY23_DIR": "${user_config.key23_dir}"
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@
 
 استوديو موشن عربي: نصوص متحركة، قوالب، وكابشن تلقائي من الكلام. فيديوك يبقى على جهازك.
 
-- **جرّبه الآن في المتصفح، على الكمبيوتر والهاتف:** [thekey23.com](https://thekey23.com). بلا تسجيل وبلا تثبيت.
+- **جرّبه الآن في المتصفح، على الكمبيوتر والهاتف:** [haraka.thekey23.com](https://haraka.thekey23.com). بلا تسجيل وبلا تثبيت.
 - **مشكلة أو فكرة:** [اكتبها هنا](https://github.com/key23studio/haraka/issues/new/choose).
 
 ## ما تصنعه
@@ -46,11 +46,11 @@
 
 <div dir="rtl">
 
-## اربط KEY23 بـ Claude
+## اربط KEY23 بـ Claude أو Codex
 
-تطلب من Claude بالكلام، فيعدّل مشروعك في KEY23: يصحّح الكابشن، ويضع القوالب، ويقص المقاطع. ترى التعديل في KEY23 خلال ثوانٍ، وتتراجع عنه بـ Ctrl+Z.
+تطلب من Claude (أو Codex) بالكلام، فيعدّل مشروعك في KEY23: يصحّح الكابشن، ويضع القوالب، ويقص المقاطع. ترى التعديل في KEY23 خلال ثوانٍ، وتتراجع عنه بـ Ctrl+Z.
 
-- يعمل بحسابك أنت في Claude. لا يرى KEY23 حسابك، ولا يدفع عنك.
+- يعمل بحسابك أنت في Claude أو ChatGPT. لا يرى KEY23 حسابك، ولا يدفع عنك.
 - فيديوهاتك تبقى على جهازك.
 
 > **مهم:** الربط يعمل مع **استوديو KEY23 على الكمبيوتر** (ويندوز أو ماك)، لا مع نسخة المتصفح.
@@ -59,8 +59,8 @@
 ### ما تحتاجه
 
 1. استوديو KEY23 على جهازك (قريبًا).
-2. تطبيق Claude للكمبيوتر، أو Claude Code.
-3. حساب في Claude.
+2. تطبيق Claude للكمبيوتر، أو Claude Code، أو Codex.
+3. حساب في Claude، أو في ChatGPT لـCodex.
 
 ### الطريقة الأولى: تطبيق Claude للكمبيوتر
 
@@ -103,6 +103,23 @@
 
 4. ابدأ جلسة جديدة، واكتب: **«اعرض مشاريعي في KEY23»**.
 
+### الطريقة الثالثة: Codex (باشتراك ChatGPT)
+
+1. ثبّت Codex من [developers.openai.com/codex](https://developers.openai.com/codex)، وسجّل دخولك بحساب ChatGPT.
+2. شغّل استوديو KEY23، واتركه مفتوحًا.
+3. في الاستوديو افتح «مساعد Claude»، واختر **Codex**، واضغط **«انسخ الأمر»**. الأمر فيه مجلد الاستوديو على جهازك.
+4. الصقه في الطرفية (PowerShell أو Terminal)، واضغط Enter. للتأكد اكتب:
+
+</div>
+
+```
+codex mcp list
+```
+
+<div dir="rtl">
+
+5. ابدأ جلسة Codex جديدة، واكتب: **«اعرض مشاريعي في KEY23»**.
+
 ### إن لم يعمل
 
 - **Claude لا يجد مشاريعك:** تأكد أن الاستوديو مفتوح، وأن صفحته تعمل على http://127.0.0.1:4100.
@@ -118,7 +135,7 @@
 
 An Arabic motion studio: animated text, templates, and automatic captions from speech. Your video stays on your device.
 
-- **Try it now in your browser, on computer and phone:** [thekey23.com/en](https://thekey23.com/en/). No sign-up, nothing to install.
+- **Try it now in your browser, on computer and phone:** [haraka.thekey23.com/en](https://haraka.thekey23.com/en/). No sign-up, nothing to install.
 - **A problem or an idea:** [write it here](https://github.com/key23studio/haraka/issues/new/choose).
 
 ## What you make
@@ -150,11 +167,11 @@ Once KEY23 is connected to Claude (steps below), ask in plain words:
 
 <p align="center"><img src="assets/editor-en.jpg" width="72%" alt="The KEY23 editor">&nbsp;<img src="assets/phone-en.jpg" width="22%" alt="KEY23 on a phone"></p>
 
-## Connect KEY23 to Claude
+## Connect KEY23 to Claude or Codex
 
-Ask Claude in plain words and it edits your KEY23 project: fixes captions, adds templates, cuts clips. You see the change in KEY23 within seconds, and Ctrl+Z takes it back.
+Ask Claude (or Codex) in plain words and it edits your KEY23 project: fixes captions, adds templates, cuts clips. You see the change in KEY23 within seconds, and Ctrl+Z takes it back.
 
-- It runs on your own Claude account. KEY23 never sees your account and pays for nothing.
+- It runs on your own Claude or ChatGPT account. KEY23 never sees your account and pays for nothing.
 - Your videos stay on your computer.
 
 > **Important:** the connection works with the **KEY23 desktop studio** (Windows or Mac), not with the browser version.
@@ -163,8 +180,8 @@ Ask Claude in plain words and it edits your KEY23 project: fixes captions, adds 
 ### What you need
 
 1. The KEY23 studio on your computer (coming soon).
-2. The Claude desktop app, or Claude Code.
-3. A Claude account.
+2. The Claude desktop app, Claude Code, or Codex.
+3. A Claude account, or a ChatGPT one for Codex.
 
 ### Option 1: the Claude desktop app
 
@@ -191,6 +208,14 @@ Ask Claude in plain words and it edits your KEY23 project: fixes captions, adds 
 
 3. If it asks for the KEY23 folder, choose the studio's folder. To change it later: `/plugin configure key23@key23`.
 4. Start a new session and type: **"Show my KEY23 projects"**.
+
+### Option 3: Codex (with a ChatGPT plan)
+
+1. Install Codex from [developers.openai.com/codex](https://developers.openai.com/codex) and sign in with your ChatGPT account.
+2. Start the KEY23 studio and keep it open.
+3. In the studio, open «Claude», choose **Codex** and press **«Copy the command»**. The command holds the studio's folder on your computer.
+4. Paste it into a terminal (PowerShell or Terminal) and press Enter. To check: `codex mcp list`.
+5. Start a new Codex session and type: **"Show my KEY23 projects"**.
 
 ### If it doesn't work
 

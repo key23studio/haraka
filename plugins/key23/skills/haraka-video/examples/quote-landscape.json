@@ -1,0 +1,81 @@
+{
+  "name": "Quote of the day",
+  "format": "landscape",
+  "fps": 30,
+  "duration": 9,
+  "bg": {
+    "c1": "#0F172A",
+    "c2": "#1E293B",
+    "angle": 135
+  },
+  "theme": {
+    "accent": "#3DE0C0",
+    "text": "#FFFFFF"
+  },
+  "elements": [
+    {
+      "type": "rect",
+      "name": "Accent bar",
+      "start": 0.2,
+      "end": 9,
+      "x": 14,
+      "y": 50,
+      "w": 1.2,
+      "h": 46,
+      "radius": 50,
+      "fill": "#3DE0C0",
+      "in": "grow"
+    },
+    {
+      "type": "text",
+      "name": "Quote",
+      "text": "Small steps every day add up to big change.",
+      "start": 0.6,
+      "end": 7.5,
+      "x": 55,
+      "y": 45,
+      "size": 9,
+      "weight": 700,
+      "font": "Montserrat",
+      "color": "#FFFFFF",
+      "align": "left",
+      "width": 120,
+      "words": {
+        "anim": "blurRise",
+        "every": 0.18
+      },
+      "out": "fade"
+    },
+    {
+      "type": "text",
+      "name": "Author",
+      "text": "— Your name",
+      "start": 2.8,
+      "end": 7.5,
+      "x": 55,
+      "y": 66,
+      "size": 4.5,
+      "weight": 600,
+      "font": "Inter",
+      "color": "#3DE0C0",
+      "align": "left",
+      "in": "fromLeft",
+      "out": "fade",
+      "width": 120
+    },
+    {
+      "type": "text",
+      "name": "End",
+      "text": "Follow for more",
+      "start": 7.6,
+      "end": 9,
+      "x": 50,
+      "y": 50,
+      "size": 10,
+      "weight": 800,
+      "font": "Montserrat",
+      "color": "#FFFFFF",
+      "in": "zoom"
+    }
+  ]
+}

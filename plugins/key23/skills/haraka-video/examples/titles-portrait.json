@@ -1,0 +1,14 @@
+{
+  "name": "افتتاح الفرع الجديد",
+  "format": "portrait",
+  "fps": 30,
+  "duration": 12,
+  "bg": { "c1": "#102A43", "c2": "#081521", "angle": 165 },
+  "theme": { "accent": "#3DE0C0", "text": "#FFFFFF" },
+  "elements": [
+    { "type": "ellipse", "name": "هالة", "start": 0, "end": 12, "x": 50, "y": 46, "w": 95, "h": 95, "fill": "#17405F", "opacity": 60, "in": "zoom" },
+    { "type": "title", "name": "الافتتاح", "design": "t-kicker", "start": 0.3, "end": 4, "texts": ["قريبًا", "فرعنا الجديد"] },
+    { "type": "title", "name": "التفاصيل", "design": "t-box", "start": 4, "end": 8.5, "texts": ["الخميس 5 ديسمبر", "شارع الإرسال، رام الله"] },
+    { "type": "title", "name": "الخاتمة", "design": "so-follow", "start": 8.5, "end": 12, "texts": ["تابعنا", "@your_account"] }
+  ]
+}

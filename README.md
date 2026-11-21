@@ -9,6 +9,25 @@
 - **جرّبه الآن في المتصفح، على الكمبيوتر والهاتف:** [haraka.thekey23.com](https://haraka.thekey23.com). بلا تسجيل وبلا تثبيت.
 - **مشكلة أو فكرة:** [اكتبها هنا](https://github.com/key23studio/haraka/issues/new/choose).
 
+## اصنع فيديو موشن من Claude مباشرة (بلا تثبيت)
+
+اطلب من Claude فيديو بالكلام، فيكتبه كاملًا بتصاميم KEY23: العناوين والحركة والألوان والتوقيت. يعطيك رابطًا: تضغطه فيفتح الفيديو جاهزًا في KEY23 في المتصفح، تعدّله وتصدّره MP4.
+
+- **ما تحتاجه:** حساب في Claude فقط. على الكمبيوتر أو الهاتف.
+- الفيديو مكتوب داخل الرابط، فلا يمر على أي خادم، ويُصنع في متصفحك.
+
+### الخطوات (مرة واحدة)
+
+1. نزّل [haraka-video.zip](https://github.com/key23studio/haraka/raw/main/haraka-video.zip).
+2. في Claude: **Settings ← Capabilities**:
+   - شغّل **Code execution and file creation**، ليصنع Claude الرابط والملف.
+   - في **Skills** اضغط **Upload skill** واختر الملف.
+3. افتح محادثة جديدة واكتب مثلًا: **«اعمل لي فيديو طولي عن افتتاح فرعنا الجديد يوم الخميس»**.
+4. اضغط الرابط الذي يعطيك إياه Claude. يفتح الفيديو في KEY23.
+   - أو نزّل ملف الخطة (.json) الذي يعطيك إياه، وافتحه من [haraka.thekey23.com/app](https://haraka.thekey23.com/app/) ← **«استيراد مشروع»**.
+
+> الفيديو هنا نصوص وتصاميم وحركة. صورك وفيديوهاتك وموسيقاك تضيفها في KEY23 بعد الفتح («وسائط»).
+
 ## ما تصنعه
 
 كل هذه قوالب حقيقية في مكتبة KEY23، رسمها البرنامج نفسه. اختر القالب، وغيّر الكلمة واللون والتوقيت.
@@ -137,6 +156,25 @@ An Arabic motion studio: animated text, templates, and automatic captions from s
 
 - **Try it now in your browser, on computer and phone:** [haraka.thekey23.com/en](https://haraka.thekey23.com/en/). No sign-up, nothing to install.
 - **A problem or an idea:** [write it here](https://github.com/key23studio/haraka/issues/new/choose).
+
+## Make a motion video straight from Claude (nothing to install)
+
+Ask Claude for a video in plain words and it writes the whole thing with KEY23's designs: titles, motion, colours and timing. It gives you a link: tap it and the video opens ready in KEY23 in your browser, to change and export as an MP4.
+
+- **What you need:** a Claude account. On a computer or a phone.
+- The video is written inside the link, so it never goes through a server; it is made in your browser.
+
+### Steps (once)
+
+1. Download [haraka-video.zip](https://github.com/key23studio/haraka/raw/main/haraka-video.zip).
+2. In Claude, **Settings → Capabilities**:
+   - turn on **Code execution and file creation**, so Claude can make the link and the file;
+   - under **Skills**, press **Upload skill** and choose the file.
+3. Start a new chat and ask, for example: **“Make me a tall video about our new branch opening on Thursday”**.
+4. Tap the link Claude gives you. The video opens in KEY23.
+   - Or download the plan file (.json) it gives you and open it at [haraka.thekey23.com/app](https://haraka.thekey23.com/app/) → **Import project**.
+
+> These videos are text, designs and motion. Add your photos, clips and music in KEY23 after opening (Media).
 
 ## What you make
 

@@ -1,0 +1,141 @@
+{
+  "name": "عرض نهاية الأسبوع",
+  "format": "portrait",
+  "fps": 30,
+  "duration": 12,
+  "bg": {
+    "c1": "#14213D",
+    "c2": "#0B1220",
+    "angle": 160
+  },
+  "theme": {
+    "accent": "#F5B841",
+    "text": "#FFFFFF"
+  },
+  "markers": [
+    {
+      "t": 0,
+      "label": "الافتتاح"
+    },
+    {
+      "t": 4.5,
+      "label": "العرض"
+    },
+    {
+      "t": 9,
+      "label": "الخاتمة"
+    }
+  ],
+  "elements": [
+    {
+      "type": "ellipse",
+      "name": "هالة",
+      "start": 0,
+      "end": 12,
+      "x": 50,
+      "y": 46,
+      "w": 95,
+      "h": 95,
+      "fill": "#1F3A68",
+      "opacity": 60,
+      "in": "zoom"
+    },
+    {
+      "type": "text",
+      "name": "سؤال",
+      "text": "جائع؟",
+      "start": 0.3,
+      "end": 4.3,
+      "x": 50,
+      "y": 40,
+      "size": 20,
+      "weight": 800,
+      "font": "Cairo",
+      "color": "#FFFFFF",
+      "words": "pop",
+      "out": "fade"
+    },
+    {
+      "type": "rect",
+      "name": "خط",
+      "start": 1.2,
+      "end": 4.3,
+      "x": 50,
+      "y": 50,
+      "w": 30,
+      "h": 1.2,
+      "radius": 50,
+      "fill": "#F5B841",
+      "in": "wipe",
+      "out": "fade"
+    },
+    {
+      "type": "text",
+      "name": "العرض",
+      "text": "خصم 30% على كل الوجبات",
+      "start": 4.5,
+      "end": 9,
+      "x": 50,
+      "y": 40,
+      "size": 12,
+      "weight": 800,
+      "font": "Cairo",
+      "color": "#FFFFFF",
+      "width": 80,
+      "words": {
+        "anim": "rise",
+        "every": 0.25
+      },
+      "out": "fade"
+    },
+    {
+      "type": "text",
+      "name": "المدة",
+      "text": "الجمعة والسبت فقط",
+      "start": 5.6,
+      "end": 9,
+      "x": 50,
+      "y": 58,
+      "size": 6,
+      "weight": 600,
+      "font": "Cairo",
+      "color": "#14213D",
+      "box": {
+        "color": "#F5B841",
+        "opacity": 100,
+        "pad": 1.6,
+        "radius": 2
+      },
+      "in": "pop",
+      "out": "fade"
+    },
+    {
+      "type": "text",
+      "name": "الدعوة",
+      "text": "اطلب الآن",
+      "start": 9.2,
+      "end": 12,
+      "x": 50,
+      "y": 42,
+      "size": 16,
+      "weight": 800,
+      "font": "Cairo",
+      "color": "#F5B841",
+      "in": "zoom"
+    },
+    {
+      "type": "text",
+      "name": "الرقم",
+      "text": "0599 000 000",
+      "start": 9.8,
+      "end": 12,
+      "x": 50,
+      "y": 54,
+      "size": 7,
+      "weight": 600,
+      "font": "Inter",
+      "color": "#FFFFFF",
+      "in": "rise"
+    }
+  ]
+}

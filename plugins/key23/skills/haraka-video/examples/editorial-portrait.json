@@ -1,0 +1,86 @@
+{
+  "name": "أسرار العمل مع Claude",
+  "format": "portrait",
+  "fps": 30,
+  "duration": 16,
+  "style": "editorial",
+  "markers": [
+    {
+      "t": 0,
+      "label": "السؤال"
+    },
+    {
+      "t": 5,
+      "label": "الطريقة"
+    },
+    {
+      "t": 11,
+      "label": "الخلاصة"
+    }
+  ],
+  "elements": [
+    {
+      "type": "text",
+      "name": "السؤال",
+      "text": "السر {أبسط} بكثير",
+      "start": 0.3,
+      "end": 3.2,
+      "x": 50,
+      "y": 45,
+      "size": 13,
+      "weight": 900,
+      "width": 80,
+      "words": "blurRise",
+      "out": "fade"
+    },
+    {
+      "type": "text",
+      "name": "الجملة الثانية",
+      "text": "ما في بروميت {سحري}",
+      "start": 3.2,
+      "end": 5.6,
+      "x": 50,
+      "y": 45,
+      "size": 12,
+      "weight": 900,
+      "width": 80,
+      "words": "blurRise",
+      "out": "fade"
+    },
+    {
+      "type": "photo3d",
+      "name": "صورة الطريقة",
+      "start": 5.6,
+      "end": 10,
+      "title": "نظام واحد {يتعلّم} من أغلاطه",
+      "cut": true
+    },
+    {
+      "type": "text",
+      "name": "الخطة",
+      "text": "يخطّط {قبل} أن يلمس",
+      "start": 10,
+      "end": 12.6,
+      "x": 50,
+      "y": 45,
+      "size": 12,
+      "weight": 900,
+      "width": 80,
+      "words": "blurRise",
+      "out": "fade"
+    },
+    {
+      "type": "text",
+      "name": "الخلاصة",
+      "text": "كل مهمة {بجلسة} لحالها",
+      "start": 12.6,
+      "end": 16,
+      "x": 50,
+      "y": 45,
+      "size": 12,
+      "weight": 900,
+      "width": 80,
+      "words": "blurRise"
+    }
+  ]
+}

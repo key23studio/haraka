@@ -14,6 +14,7 @@ A plan is one JSON object. Haraka refuses any field not listed here, and says wh
 | `theme` | `{ "accent": "#RRGGBB", "text": "#RRGGBB" }`: the video's accent and text colours (Haraka's templates use them). |
 | `markers` | Section marks on the timeline: `[{ "t": seconds, "label": "…" }]`. |
 | `art` | Your own drawings for `svg` elements: `{ "key": { "vb": [x, y, w, h], "body": "<svg markup without the <svg> tag>" } }`. Plain shapes and paths only: no scripts, no links, no images. |
+| `style` | One look over the whole video (colours, fonts, surface, pace, transitions): `editorial`, `clean`, `news`, `bold`, `cinema`, `tech`, `soft`, `light`, `story`, `paper`, `archive`, `explainer`, `swiss`, `blueprint`, `newsprint`, `doodle`, `glass`. `editorial` also turns photos black and white. The plan's `bg` and `theme` win over it. |
 | `elements` | The list of elements, back to front (at least one). |
 
 (`sound` exists too, but it needs an audio file already in a Haraka project: do not use it in a plan the user opens fresh.)
@@ -24,7 +25,7 @@ Every element:
 
 | Field | What it is |
 |---|---|
-| `type` | `title` (a title design: only `name`, `design`, `start`, `end`, `texts`; see `titles.md`), `text`, `rect`, `ellipse`, `line`, `svg` (also `drawing`, `image`, `video`: they need files in the project; not in a fresh plan). |
+| `type` | `title` (a title design: only `name`, `design`, `start`, `end`, `texts`; see `titles.md`), `photo3d` (an editorial 3D photo: only `name`, `start`, `end`, `title` (words over it, a `{word}` in the accent, 120 letters at most), `cut` (true: the subject cut out of its background); with no photo in a plan it is a place the user fills when opening the video), `text`, `rect`, `ellipse`, `line`, `svg` (also `drawing`, `image`, `video`: they need files in the project; not in a fresh plan). |
 | `name` | A short name, shown on the timeline. Keep it the same when you rebuild the plan: it keeps the element. |
 | `start`, `end` | When it is on screen, in seconds of the video. |
 | `x`, `y` | Its centre, in % of the frame. |
